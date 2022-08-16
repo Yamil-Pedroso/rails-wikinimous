@@ -1,3 +1,7 @@
+body {
+    background-image: url("https://cdn.dribbble.com/users/1338391/screenshots/17547297/media/87cde54877f594d7e40ff90094adc782.jpg");
+}
+
 .title {
     text-align: center;
 }
@@ -9,6 +13,13 @@
     align-items: center;
     font-family: Roboto, sans-serif;
     font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.artists li {
+    color: white;
+    list-style-type: none;
 }
 
 .new-artist {
