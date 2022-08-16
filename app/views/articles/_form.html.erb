@@ -1,0 +1,15 @@
+<%= form_with model: article do |form| %>
+  <div class="artist-form">
+    <%= form.label :title %><br>
+    <%= form.text_field :title %>
+  </div>
+
+  <div class="artist-form">
+    <%= form.label :body %><br>
+    <%= form.text_area :body %><br>
+  </div>
+
+  <div class="artist-form">
+    <%= form.submit %>
+  </div>
+<% end %>

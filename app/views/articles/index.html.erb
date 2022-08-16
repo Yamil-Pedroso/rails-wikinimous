@@ -1,0 +1,16 @@
+<div class="title">
+  <h1>Artists</h1>
+  <h2>The Better Artist of all times</h2>
+</div>
+
+<ul class="artists">
+  <% @articles.each do |article| %>
+      <li>
+        <%= link_to article.title, article %>
+      </li>
+  <% end %>
+</ul>
+
+<div class="new-artist">
+  <%= link_to "New Artist", new_article_path %>
+</div>
